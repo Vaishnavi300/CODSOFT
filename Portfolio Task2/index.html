@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vaishnavi Portfolio</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-image: url('markus-spiske-hvSr_CVecVI-unsplash.jpg');
+            background-color: #1a1a1a; /* Dark background color */
+            color: #fff; /* White text color */
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+
+        header {
+            background-image: url('fotis-fotopoulos-6sAl6aQ4OWI-unsplash.jpg'); /* Replace with your actual image URL */
+            background-size: cover;
+            background-position: center;
+            background-color: rgba(0, 0, 0, 0.7);
+            padding: 20px;
+            text-align: center;
+        }
+
+        h1, h2 {
+            color: #00bcd4; /* Pale blue color for headings */
+        }
+
+        section {
+            flex: 1;
+            padding: 40px;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        p {
+            font-size: 1.2em;
+            line-height: 1.6;
+            color: #ccc; /* Light gray text color */
+            max-width: 600px; /* Limit the width of the paragraph for better readability */
+            margin-bottom: 20px;
+        }
+
+        img {
+            width: 150px; /* Adjust the width of the image */
+            height: 150px; /* Set a fixed height for a square image */
+            border-radius: 50%; /* Add a circular border to the image */
+            margin-left: 20px; /* Add some margin to separate the image from the text */
+        }
+
+        .skills, .projects, .resume, .contact {
+            margin-top: 40px;
+        }
+
+        .skills ul, .projects ul, .resume ul, .contact ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        .skills li, .projects li, .resume li, .contact li {
+            margin-bottom: 10px;
+        }
+
+        .skills li span {
+            display: inline-block;
+            width: 100px;
+            color: #ff69b4; /* Pale pink color for skill labels */
+        }
+
+        .resume a {
+            display: inline-block;
+            background-color: #00bcd4; /* Pale blue color for the link */
+            color: #fff;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+
+        .resume a:hover {
+            background-color: #00796b; /* Darker blue color on hover */
+        }
+
+        footer {
+            background-color: #333; /* Darker footer background color */
+            color: #ccc;
+            text-align: center;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Vaishnavi</h1>
+        <p>Aspiring Developer</p>
+    </header>
+
+    <section id="about">
+       <div>
+        <h2>About Me</h2>
+        <p>A fresher who wishes to equip myself with additional skills and hone my skills by working with a team that enables me to develop and work hard.</p>
+        <img src="2022-12-29 17_53_37.jpg" alt="Your Picture">
+        </div>
+    </section>
+
+    <section class="skills">
+        <h2>Skills</h2>
+        <ul>
+            <li><span>Python,Java:</span> Intermediate</li>
+            <li><span>Web Development:</span> Intermediate</li>
+            <li><span>Oracle Rdbms</span> Intermediate</li>
+            <li><span>Linux</span> Beginner</li>
+            <!-- Add more skills as needed -->
+        </ul>
+    </section>
+
+    <section class="projects">
+        <h2>Projects</h2>
+        <ul>
+            <li>Project 1 - Quiz Application</li>
+            <p>A Java-based project that allows developers to create a quiz application with various features, such as multiple-choice questions, timers, and score tracking.  </p>
+            <li>Project 2 - Drawing Application</li>
+            <p>It is a Java-based Project. Here we can draw, erase, save and do many other operations.</p>
+            <!-- Add more projects as needed -->
+        </ul>
+    </section>
+
+    <section class="resume">
+        <h2>Resume</h2>
+        <p>View my resume: <a href="Resume_Vaishnavi.pdf" target="_blank">Open PDF</a></p>
+    </section>
+
+    </section>
+
+    <section class="contact">
+        <h2>Contact</h2>
+        <ul>
+            <li>Email: vaishnavee3012@gmail.com</li>
+            <li>LinkedIn: www.linkedin.com/in/vaishnavi-915827255</li>
+            <li>GitHub: https://github.com/Vaishnavi300</li>
+        </ul>
+    </section>
+
+    <footer>
+        &copy; 2023 Vaishnavi. All rights reserved.
+    </footer>
+</body>
+</html>
